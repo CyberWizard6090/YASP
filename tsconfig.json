@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                          // Целевая версия JavaScript
+      "module": "ESNext",                       // Система модулей
+      "jsx": "react",                           // Поддержка JSX
+      "strict": true,                           // Включение строгого режима
+      "esModuleInterop": true,                  // Поддержка CommonJS
+      "skipLibCheck": true,                     // Пропуск проверки типов в файлах библиотеки
+      "forceConsistentCasingInFileNames": true, // Следование единообразному регистру в именах файлов
+      "moduleResolution": "node",              // Разрешение модулей
+      "allowSyntheticDefaultImports": true,    // Разрешение импорта по умолчанию
+      "outDir": "./dist",                       // Папка для компилированного кода
+      "rootDir": "./src"                        // Исходная папка для TypeScript
+    },
+    "include": ["src"],                         // Включаемые файлы и папки
+    "exclude": ["node_modules"]                // Исключаемые файлы и папки
+  }
+  
