@@ -1,12 +1,15 @@
 import React from 'react'
 import Item from './Item'
-
+type LegendItem = {
+  label: string;
+  color: string;
+};
 type Props = {
   data:any
 }
 
 export const Legends = ({data}: Props) => {
-  const dataArray = Object.values(data);
+  const dataArray: LegendItem[] = Object.values(data);
   return (
     <div className='Legends'>
       {dataArray.map((item, index) => (
